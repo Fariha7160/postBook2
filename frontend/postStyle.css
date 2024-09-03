@@ -1,0 +1,191 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.header{
+    width: 90%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+
+.edit-btn{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    display:flex;
+    justify-content: right;
+}
+.delete-btn{
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 5px;
+    display:flex;
+    justify-content: right;
+    
+}
+
+
+#add-post-coantainer article > h2 {
+    color:rgb(18, 218, 22);
+    
+}
+
+#newPost-text{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#newPost-image{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#add-post-coantainer{
+    
+    width: 95%;
+    margin: 20px auto;
+    display:flex;
+    justify-content: center;
+}
+.addPost-btn{
+    width: 100px;
+    padding: 9px;
+    background-color:rgb(55, 173, 23);
+    color:rgb(255, 255, 255);
+    font-weight:500;
+    border: none;
+    border-radius:10px;
+
+}
+
+.addPost-btn:hover{
+    background-color:rgb(90, 212, 90);
+    transition: 1s linear;
+    cursor: pointer;
+}
+.logoutBtn{
+    background-color: rgba(14, 12, 14, 0.83);
+    color:white;
+    border: none;
+    padding:11px;
+    border-radius:7px;
+}
+
+.logoutBtn:hover{
+    background-color:rgb(81, 131, 93);
+    cursor: pointer;
+}
+#post-container{
+    width: 90%;
+    background-color: rgb(194, 238, 193);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.post-user-image img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+}
+
+.post{
+    padding:15px;
+    border : 1px solid rgb(80, 90, 85);
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.post-username{
+    margin: 0;
+}
+.posted-time{
+    color: rgb(63, 56, 56);
+    font-size:12px;
+}
+.post-image{
+    display: flex;
+    justify-content:center;
+}
+.post-image img{
+    width: 50%;
+    border-radius: 9px;
+    margin: 14px;
+}
+
+.comment{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.comment-user-image img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.comment-text-container{
+    background-color: rgb(240, 245, 239);
+    padding: 9px;
+    border-radius:8px;
+}
+
+.comment-text-container h4,p{
+    margin-bottom: 4px;
+}
+
+.postComment-holder{
+    display: flex;
+    gap: 10px;
+    margin : 50px;
+
+}
+
+.post-comment-input-field-holder{
+    width:75%;
+
+}
+
+.post-comment-input-field{
+    padding: 10px;
+    outline: none;
+    width: 80%;
+}
+
+.postComment-btn{
+    padding: 10px;
+    background-color:rgb(163, 76, 195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+.postComment-btn{
+    cursor: pointer;
+
+}
+
+.postComment-btn:hover{
+    background-color:rgb(138, 117, 154);
+    
+}
